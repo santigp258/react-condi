@@ -1,6 +1,5 @@
 {
-  "version": "0.1.0",
-  "license": "MIT",
+  "version": "0.1.1",
   "description": "The most powerful component of the React ecosystem",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -17,6 +16,16 @@
   ],
   "engines": {
     "node": ">=10"
+  },
+  "repository": "https://github.com/santigp258/react-condi",
+  "author": "santigp258 <santigp258@gmail.com> (https://github.com/santigp258)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santigp258/react-condi/issues"
+  },
+  "homepage": "https://github.com/santigp258/react-condi#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "start": "tsdx watch",
@@ -43,7 +52,6 @@
     "trailingComma": "es5"
   },
   "name": "react-condi",
-  "author": "santigp258",
   "module": "dist/react-condi.esm.js",
   "size-limit": [
     {
